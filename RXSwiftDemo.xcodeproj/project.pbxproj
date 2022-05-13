@@ -18,6 +18,7 @@
 		21CEA51F282F122600D0178F /* RxCocoa-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 21CEA51E282F122600D0178F /* RxCocoa-Dynamic */; };
 		21CEA521282F146200D0178F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CEA520282F146200D0178F /* MainViewController.swift */; };
 		21CEA523282F15E900D0178F /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CEA522282F15E900D0178F /* UserDetailViewController.swift */; };
+		21CEA527282F20ED00D0178F /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CEA526282F20ED00D0178F /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		21CEA50D282F05CC00D0178F /* RXSwiftDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXSwiftDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		21CEA520282F146200D0178F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		21CEA522282F15E900D0178F /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		21CEA526282F20ED00D0178F /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,14 +105,14 @@
 		21CEA4E9282F05CA00D0178F /* RXSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				21CEA525282F1B7800D0178F /* Views */,
+				21CEA524282F1B6900D0178F /* View Controllers */,
 				21CEA4EA282F05CA00D0178F /* AppDelegate.swift */,
 				21CEA4EC282F05CA00D0178F /* SceneDelegate.swift */,
 				21CEA4F0282F05CA00D0178F /* Main.storyboard */,
 				21CEA4F3282F05CB00D0178F /* Assets.xcassets */,
 				21CEA4F5282F05CB00D0178F /* LaunchScreen.storyboard */,
 				21CEA4F8282F05CB00D0178F /* Info.plist */,
-				21CEA520282F146200D0178F /* MainViewController.swift */,
-				21CEA522282F15E900D0178F /* UserDetailViewController.swift */,
 			);
 			path = RXSwiftDemo;
 			sourceTree = "<group>";
@@ -130,6 +132,23 @@
 				21CEA50D282F05CC00D0178F /* RXSwiftDemoUITestsLaunchTests.swift */,
 			);
 			path = RXSwiftDemoUITests;
+			sourceTree = "<group>";
+		};
+		21CEA524282F1B6900D0178F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				21CEA520282F146200D0178F /* MainViewController.swift */,
+				21CEA522282F15E900D0178F /* UserDetailViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		21CEA525282F1B7800D0178F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				21CEA526282F20ED00D0178F /* UserCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +291,7 @@
 				21CEA521282F146200D0178F /* MainViewController.swift in Sources */,
 				21CEA4EB282F05CA00D0178F /* AppDelegate.swift in Sources */,
 				21CEA523282F15E900D0178F /* UserDetailViewController.swift in Sources */,
+				21CEA527282F20ED00D0178F /* UserCell.swift in Sources */,
 				21CEA4ED282F05CA00D0178F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
