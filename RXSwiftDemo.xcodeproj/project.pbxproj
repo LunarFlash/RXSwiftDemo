@@ -16,6 +16,7 @@
 		21CEA502282F05CC00D0178F /* RXSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CEA501282F05CC00D0178F /* RXSwiftDemoTests.swift */; };
 		21CEA50C282F05CC00D0178F /* RXSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CEA50B282F05CC00D0178F /* RXSwiftDemoUITests.swift */; };
 		21CEA50E282F05CC00D0178F /* RXSwiftDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CEA50D282F05CC00D0178F /* RXSwiftDemoUITestsLaunchTests.swift */; };
+		21CEA51F282F122600D0178F /* RxCocoa-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 21CEA51E282F122600D0178F /* RxCocoa-Dynamic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21CEA51F282F122600D0178F /* RxCocoa-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = RXSwiftDemo;
+			packageProductDependencies = (
+				21CEA51E282F122600D0178F /* RxCocoa-Dynamic */,
+			);
 			productName = RXSwiftDemo;
 			productReference = 21CEA4E7282F05CA00D0178F /* RXSwiftDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 21CEA4DE282F05CA00D0178F;
+			packageReferences = (
+				21CEA51D282F122600D0178F /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 21CEA4E8282F05CA00D0178F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -602,6 +610,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		21CEA51D282F122600D0178F /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		21CEA51E282F122600D0178F /* RxCocoa-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21CEA51D282F122600D0178F /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxCocoa-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 21CEA4DF282F05CA00D0178F /* Project object */;
 }
