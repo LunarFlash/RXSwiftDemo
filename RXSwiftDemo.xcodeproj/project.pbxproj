@@ -19,6 +19,7 @@
 		21CEA521282F146200D0178F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CEA520282F146200D0178F /* MainViewController.swift */; };
 		21CEA523282F15E900D0178F /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CEA522282F15E900D0178F /* UserDetailViewController.swift */; };
 		21CEA527282F20ED00D0178F /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CEA526282F20ED00D0178F /* UserCell.swift */; };
+		21CEA52A282F261D00D0178F /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CEA529282F261D00D0178F /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		21CEA520282F146200D0178F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		21CEA522282F15E900D0178F /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
 		21CEA526282F20ED00D0178F /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		21CEA529282F261D00D0178F /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		21CEA4E9282F05CA00D0178F /* RXSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				21CEA528282F261000D0178F /* Model */,
 				21CEA525282F1B7800D0178F /* Views */,
 				21CEA524282F1B6900D0178F /* View Controllers */,
 				21CEA4EA282F05CA00D0178F /* AppDelegate.swift */,
@@ -149,6 +152,14 @@
 				21CEA526282F20ED00D0178F /* UserCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		21CEA528282F261000D0178F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				21CEA529282F261D00D0178F /* DataModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +302,7 @@
 				21CEA521282F146200D0178F /* MainViewController.swift in Sources */,
 				21CEA4EB282F05CA00D0178F /* AppDelegate.swift in Sources */,
 				21CEA523282F15E900D0178F /* UserDetailViewController.swift in Sources */,
+				21CEA52A282F261D00D0178F /* DataModel.swift in Sources */,
 				21CEA527282F20ED00D0178F /* UserCell.swift in Sources */,
 				21CEA4ED282F05CA00D0178F /* SceneDelegate.swift in Sources */,
 			);
