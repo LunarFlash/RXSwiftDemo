@@ -20,6 +20,7 @@
 		21CEA523282F15E900D0178F /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CEA522282F15E900D0178F /* UserDetailViewController.swift */; };
 		21CEA527282F20ED00D0178F /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CEA526282F20ED00D0178F /* UserCell.swift */; };
 		21CEA52A282F261D00D0178F /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CEA529282F261D00D0178F /* DataModel.swift */; };
+		21CEA52D282F383C00D0178F /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CEA52C282F383C00D0178F /* APIRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		21CEA522282F15E900D0178F /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
 		21CEA526282F20ED00D0178F /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		21CEA529282F261D00D0178F /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		21CEA52C282F383C00D0178F /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		21CEA4E9282F05CA00D0178F /* RXSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				21CEA52B282F382700D0178F /* Networking */,
 				21CEA528282F261000D0178F /* Model */,
 				21CEA525282F1B7800D0178F /* Views */,
 				21CEA524282F1B6900D0178F /* View Controllers */,
@@ -160,6 +163,14 @@
 				21CEA529282F261D00D0178F /* DataModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		21CEA52B282F382700D0178F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				21CEA52C282F383C00D0178F /* APIRequest.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21CEA521282F146200D0178F /* MainViewController.swift in Sources */,
+				21CEA52D282F383C00D0178F /* APIRequest.swift in Sources */,
 				21CEA4EB282F05CA00D0178F /* AppDelegate.swift in Sources */,
 				21CEA523282F15E900D0178F /* UserDetailViewController.swift in Sources */,
 				21CEA52A282F261D00D0178F /* DataModel.swift in Sources */,
